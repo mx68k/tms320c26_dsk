@@ -6,7 +6,8 @@
 ;     TMS320Cxx DSP Applications                            ;
 ;                                                           ;
 ; 2024                                                      ;
-; mx68k                                                     ;                                                        ;                                                           ;
+; mx68k                                                     ;  
+;                                                           ;
 ; A spectrum analyzer using the DSK                         ;
 ; Use an Oscilliscope on the analog output to view the      ;
 ; spectrum of the signal at the analog input!               ;
