@@ -54,14 +54,14 @@ AIC_CMD         .set    00003h  ;   COMMAND  00000000_000000_11 = 00083h
 ;-----------------------------------------------------------;
 ;---------------TLC320AC01 registers--------------------------;
 ;-----------------------------------------------------------;
-PR1 		.set 	00104h ;A register						00000100000100
-PR2 		.set 	00219h ;B register						00001000011001
-PR3 		.set 	00300h ;A prime register				00001100000000
-PR4 		.set 	00405h ;amplifier gain register			00010000000101
-PR5 		.set 	00501h ;analog configuration register	00010100000001
+PR1 		.set 	00104h ;A register					               	00000100000100
+PR2 		.set 	00219h ;B register						               00001000011001
+PR3 		.set 	00300h ;A prime register				           00001100000000
+PR4 		.set 	00405h ;amplifier gain register		     	00010000000101
+PR5 		.set 	00501h ;analog configuration register	 00010100000001
 PR6 		.set 	00600h ;digital configuration register	00011000000000
-PR7 		.set 	00730h ;frame synch delay register		00011100110000
-PR8 		.set 	00802h ;frame synch number register		00100000000010
+PR7 		.set 	00730h ;frame synch delay register		   00011100110000
+PR8 		.set 	00802h ;frame synch number register		  00100000000010
 ;-----------------------------------------------------------;
  .if WTRFALL                    ;
 d_loops         .set    010h    ; synch pulse delay loop
